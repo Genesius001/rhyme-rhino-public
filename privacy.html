@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rhyme Rhino — Privacy Policy</title>
+<style>
+:root{--ink:#111;--muted:#555;--lime:#7bbf1a;--bg:#fff}
+body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+main{max-width:760px;margin:0 auto;padding:32px 20px 64px}
+h1{font-size:30px;margin:0 0 4px}h2{font-size:20px;margin:32px 0 8px}
+.meta{color:var(--muted);margin-bottom:24px}
+nav a{margin-right:16px}
+table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #ddd;padding:8px;vertical-align:top;text-align:left}
+code{background:#f3f3f3;padding:1px 4px;border-radius:3px}
+footer{margin-top:48px;color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<main>
+<nav><a href="index.html">Rhyme Rhino</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="support.html">Support</a></nav>
+<h1>Privacy Policy</h1>
+<p class="meta">Effective date: September 29, 2026 · Applies to the Rhyme Rhino app for iPhone · Publisher: Griffonix Inc., Waukee, Iowa, United States</p>
+
+<p>Rhyme Rhino turns your personal stories into songs with AI-written lyrics and AI vocals. This policy explains what the app stores on your device, what is sent to our servers and to Google's AI services, how long it is kept, and how you can delete it. We designed the app to keep your content on your device wherever possible.</p>
+
+<h2>1. What stays on your device</h2>
+<p>The following is stored only on your iPhone, in the app's private storage, until you delete it:</p>
+<ul>
+<li>your stories and the details you type (names, facts, occasions);</li>
+<li>voice notes you record or import;</li>
+<li>pet photos you choose (used as local cover art only);</li>
+<li>every lyric version, including your manual edits;</li>
+<li>finished songs, their lyrics, covers and the order of your library;</li>
+<li>your song-language and style choices.</li>
+</ul>
+<p>The app's library and drafts are currently excluded from iCloud and computer backups. If a song matters to you, export it with <em>Share song</em> (for example to Files) so you have your own copy.</p>
+
+<h2>2. What is sent to our servers, and why</h2>
+<p>When you tap <em>Write my lyrics</em> (after confirming that you agree to processing) the app sends to our server the text needed to write lyrics: your typed story or details, the recipient or pet name, the occasion, the chosen song language and style, and, for Voice to Song, your voice note so it can be transcribed. If you ask for another lyric version, your current lyrics and your note about what to change are sent too. When you tap <em>Create my song</em>, the app sends the title, the lyrics you approved, the style, the song language and a short pronunciation guide for names.</p>
+<p>Our server forwards this material to Google's generative AI services to transcribe speech, write lyrics and generate the music. <strong>Pet photos are never uploaded.</strong> Google processes the submitted material under its own API terms; its retention and safety logging are separate from ours and are not controlled by us.</p>
+<p>Our servers run on Google Cloud in the United States.</p>
+
+<h2>3. How long we keep it</h2>
+<ul>
+<li><strong>Input for processing</strong> (your text and voice note): stored in private cloud storage only while the job runs and deleted when processing finishes or fails. Deletion is attempted immediately and repeated by scheduled cleanup; a storage lifecycle rule removes any leftover object after 7 days at the latest.</li>
+<li><strong>Results</strong> (lyrics, generated audio): kept until your device confirms that it has saved them, or until the delivery window ends — 24 hours after the request for current app versions (7 days for versions before 0.4). After that they are deleted.</li>
+<li><strong>Job records without content</strong> (job ID, status, timestamps, error category, allowance reservation): kept for a limited period after completion to make sure a repeated request is never charged twice, then deleted automatically.</li>
+<li><strong>Server logs</strong>: contain technical metadata (timestamps, status codes, error categories, token counts). They do not contain your stories, lyrics, recordings or photos.</li>
+</ul>
+
+<h2>4. Identifiers we use</h2>
+<ul>
+<li><strong>Installation identity.</strong> The app uses Apple's App Attest to prove that requests come from a genuine copy of Rhyme Rhino on an Apple device. Our server stores a hashed key identifier and a public key for your installation, plus short-lived access tokens (stored as hashes). This identity is not your name, Apple Account or email; we never receive those from Apple.</li>
+<li><strong>Purchase verification.</strong> To unlock music generation, the app sends Apple's signed purchase confirmation to our server. We store the signed confirmation and the Apple transaction identifiers, and we check the current subscription state with Apple. We do not receive your payment card, billing address or Apple Account email.</li>
+<li><strong>Allowances.</strong> We keep a counter of lyric and song generations per allowance period so that limits are applied consistently, including after reinstalling or restoring on another device.</li>
+</ul>
+
+<h2>5. Product analytics</h2>
+<p>The app reports a small set of events so we can see whether creation and playback work: scenario selected, lyrics ready, paywall opened, purchase verified, song delivered, first playback, example played, lyrics regenerated, generic error, share sheet opened or completed. Each event may include the scenario, the song language and a technical outcome. Events never include names, stories, lyrics, recordings, photos, purchase receipts or your contact details. We do not use third-party analytics or advertising SDKs, and we do not track you across other companies' apps or websites.</p>
+
+<h2>6. How to delete your data</h2>
+<ul>
+<li><strong>One song:</strong> in Listen, open the song menu and choose <em>Delete song</em>.</li>
+<li><strong>Everything:</strong> Settings → <em>Delete all content</em>. This removes your stories, recordings, photos, lyrics and saved songs from the device. Any pending or undelivered server job is queued for deletion and the request is sent when the app is online; if the app is removed before it reconnects, temporary server copies still expire as described above.</li>
+<li><strong>Stop sending stories:</strong> Settings → <em>Allow story processing</em> can be switched off. You can keep listening to saved songs.</li>
+<li>Deleting content does not cancel a subscription (see Apple Account settings) and does not reset already used allowances.</li>
+</ul>
+
+<h2>7. Children</h2>
+<p>Rhyme Rhino is not directed to children under 13 and we do not knowingly collect personal information from them. The age rating shown on the App Store applies.</p>
+
+<h2>8. Your rights and how to contact us</h2>
+<p>Depending on where you live, you may have the right to access, correct, delete or restrict the use of your personal data. Most of your content is only on your device and can be deleted by you directly. For requests about server-side data (installation identity, purchase verification records, job metadata), contact us through the <a href="support.html">Support page</a>. Please do not include recordings or private details in a public request; we will tell you how to send them privately if needed.</p>
+
+<h2>9. Changes</h2>
+<p>We will post updates to this page with a new effective date. Material changes will also be described in the app's release notes.</p>
+
+<footer>Griffonix Inc. · Rhyme Rhino is an independent product and is not affiliated with Apple Inc. or Google LLC.</footer>
+</main>
+</body>
+</html>
